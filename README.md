@@ -1,7 +1,7 @@
-#include<iostream>
-
+#include <iostream>
+ 
 using namespace std;
-
+ 
 int main(){
  
     int pilih, waktu, totalHarga, harga, umur; 
@@ -96,6 +96,7 @@ int main(){
         cout << "Terima kasih telah menggunakan jasa rental mobil kami." << endl;
         cout << "Semoga selamat sampai tujuan dan pulang dengan selamat." << endl << endl;
     } while (yesNo == 'Y' || yesNo == 'y');
-
-    return 0;
+ 
+return 0;
+ 
 }
